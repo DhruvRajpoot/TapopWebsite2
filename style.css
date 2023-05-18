@@ -100,10 +100,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  padding: 200px 0 150px 0;
 }
 
-.textwrapper{
+.textwrapper {
   width: fit-content;
   height: fit-content;
 }
@@ -129,39 +129,48 @@ main {
 }
 
 @media (max-width: 600px) {
-  .top-banner{
+  .top-banner {
     padding: 20px;
   }
-  .textContainer{
+
+  .textContainer {
     margin: 0;
     padding: 20px;
   }
-  .bigText{
+
+  .bigText {
     font-size: 28px;
   }
-  .smallText{
+
+  .smallText {
     font-size: 14px;
   }
-  .tapop-logo{
+
+  .tapop-logo {
     height: 28px;
   }
-  .footer{
-    height: 84px ;
+
+  .footer {
+    height: 84px;
     font-size: 18px;
+  }
+
+  .baloon-div {
+    width: calc(100vw - 40px);
   }
 }
 
-@media  (max-width:320px) {
-  .textContainer{
+@media (max-width:320px) {
+  .textContainer {
     padding: 5px;
   }
-  
-  .bigText{
+
+  .bigText {
     font-size: 24px;
   }
 
-  .smallText{
+  .smallText {
     font-size: 12px;
-    padding: 20px 0 0 0 ;
+    padding: 20px 0 0 0;
   }
 }
